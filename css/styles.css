@@ -15,6 +15,10 @@
     --filters-button-bg: #F5F4FA;
     --footer-contacts:rgba(255, 255, 255, 0.6);
     --main-team-bg: #ffffff;
+    --filters-button-text: #212121;
+    --portfolio-bg-color: #FFFFFF;
+    --portfolio-title: #212121;
+    --portfolio-text: #757575;
 
 }
 
@@ -184,3 +188,45 @@ color: var(--header-nav-text-colour);
     letter-spacing: 0.03em;
     color: var(--footer-contacts);
 }
+/* prtfolio filters */
+.main-portfolio-filter-item-button {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--filters-button-text);
+    background-color: var(--filters-button-bg);
+    border-radius: 4px;
+    cursor: pointer;
+}
+.main-portfolio-filter-item-button:hover {
+    background-color: var(--button-bg-colour);
+    color: var(--main-button-colour-text);
+}
+.main-portfolio-filter-item-button:focus {
+    background-color: var(--button-bg-colour);
+    color: var(--main-button-colour-text);
+}
+
+/* projects portfolio */
+
+.potfolio-projects-item {
+    background: var(--portfolio-bg-color);
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box  
+}
+.potfolio-projects-item-title {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--portfolio-title);
+}
+.potfolio-projects-item-text {
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--portfolio-text);
+}
+
